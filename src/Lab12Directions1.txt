@@ -1,0 +1,5 @@
+Create a java program FileScan.java that uses the JFileChooser dialog to let the user specify a text file from the system.
+(Code the JFileChooser to open in the src directory of the IntelliJ project.) 
+The program should then open and read the file line by line and echo the lines to the screen. 
+Then, the program should print a summary report of the file to the screen. 
+The summary report should contain the following.
