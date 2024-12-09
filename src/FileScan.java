@@ -17,8 +17,6 @@ public class FileScan
 {
     public static void main(String[] args)
     {
-        //ADD JAVADOC
-
         /**
          * The file chooser that is used for selecting a file to read
          */
@@ -36,10 +34,22 @@ public class FileScan
          */
         ArrayList<String> lines = new ArrayList<>();
 
+        /**
+         * a String that takes the file name passed into the program via an argument in main
+         */
         String argsFile = "";
 
+        /**
+         * This algorithm checks if an argument has been passed into main, and, if so, takes the file name entered and reads the file; if not, it runs JFileChooser and reads the file
+         */
         if(args.length > 0) {
-        try{
+            /**
+             * This algorithm takes the file name input by the user in args, reads the file, and summarizes it
+             */
+            try{
+            /**
+             * A String that takes the file name input by the user via args and outputs the name in the file summary
+             */
                 String fileName = "";
 
                 argsFile = args[0];
